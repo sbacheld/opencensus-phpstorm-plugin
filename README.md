@@ -13,4 +13,14 @@ make build
 
 ## Installing
 
-The plugin plugin can be installed from disk by following instructions here: https://www.jetbrains.com/help/phpstorm/managing-plugins.html#install_plugin_from_disk.
+The plugin plugin can be installed from disk by following instructions here:
+https://www.jetbrains.com/help/phpstorm/managing-plugins.html#install_plugin_from_disk.
+
+## Deploying
+
+Run the following command to deploy the JAR file to the Jetbrains plugin repository. You will need the
+PLUGIN_UPLOAD_TOKEN environment variable set.
+
+```bash
+make deploy
+```
