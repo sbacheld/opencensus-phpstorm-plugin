@@ -1,0 +1,27 @@
+<idea-plugin version="1">
+  <id>dev.bachelder.opencensus_php_extension_support</id>
+  <name>OpenCensus PHP Extension Support</name>
+  <version>0.1</version>
+  <vendor email="sean@bachelder.dev" url="https://bachelder.dev">Sean Bachelder</vendor>
+
+  <description><![CDATA[
+    A plugin that provides function signatures for the OpenCensus PHP extension.
+  ]]></description>
+
+  <change-notes><![CDATA[
+    <h3>0.1</h3>
+    <ul>
+      <li>Initial support to provide function signatures for OpenCensus PHP extension.</li>
+    </ul>
+  ]]>
+  </change-notes>
+
+  <idea-version since-build="163.3984"/>
+
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.jetbrains.php</depends>
+
+  <extensions defaultExtensionNs="com.jetbrains.php">
+    <libraryRoot id="opencensus-extension-support" path="/opencensus-extension-support/" runtime="false"/>
+  </extensions>
+</idea-plugin>
