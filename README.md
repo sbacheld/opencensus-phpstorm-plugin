@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/sbacheld/opencensus-phpstorm-plugin.svg?branch=master)](https://travis-ci.org/sbacheld/opencensus-phpstorm-plugin.svg?branch=master)
 
 A PhpStorm plugin that provides function signatures for the [OpenCensus PHP extension](https://github.com/census-instrumentation/opencensus-php).
+The plugin can be downloaded from the [JetBrains Plugins Repository](https://plugins.jetbrains.com/plugin/14175-opencensus-php-extension-support).
 
 ## Building
 
